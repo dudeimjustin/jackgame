@@ -23,19 +23,19 @@ while gameLoop:
 
         if (event.type==pygame.KEYDOWN):
 
-            if (event.type==pygame.K_LEFT):
+            if (event.key==pygame.K_LEFT):
 
                 x-=10
 
-            if (event.type==pygame.K_RIGHT):
+            if (event.key==pygame.K_RIGHT):
 
                 x+=10
 
-            if (event.type==pygame.K_UP):
+            if (event.key==pygame.K_UP):
 
                 y-=10
 
-            if (event.type==pygame.K_DOWN):
+            if (event.key==pygame.K_DOWN):
 
                 y+=10
 
